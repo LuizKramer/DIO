@@ -9,12 +9,12 @@ public class Rainha {
         int n = sc.nextInt();
         for(int i=0 ; i<n ; i++) {
             int x = sc.nextInt();
-            System.out.printf((pow(2, x)/12)/1000 + " kg"); //Complete o código aqui.
+            System.out.println((long)((pow(2, x)/12L)/1000L) + " kg"); //Complete o código aqui.
         }
         sc.close();
     }
-    public static int pow(int a, int b){
-        int resultado = 1;
+    public static double pow(int a, int b){
+        double resultado = 1L;
         for (int i =0; i<b; i++){
             resultado *= a;
         }
