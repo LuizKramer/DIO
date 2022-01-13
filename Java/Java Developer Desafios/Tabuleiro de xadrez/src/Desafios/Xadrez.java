@@ -1,4 +1,4 @@
-package Xadrez;
+package Desafios;
 
 import java.util.Scanner;
 
