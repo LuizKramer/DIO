@@ -1,27 +1,27 @@
 package com.company;
 
-public class Node {
-    private String conteudo;
-    private Node nextNode;
+public class Node <T> {
+    private T conteudo;
+    private Node<T> nextNode;
 
-    public Node(String conteudo) {
+    public Node(T conteudo) {
         this.nextNode = null;
         this.conteudo = conteudo;
     }
 
-    public String getConteudo() {
+    public T getConteudo() {
         return conteudo;
     }
 
-    public void setConteudo(String conteudo) {
+    public void setConteudo(T conteudo) {
         this.conteudo = conteudo;
     }
 
-    public Node getNextNode() {
+    public Node<T> getNextNode() {
         return nextNode;
     }
 
-    public void setNextNode(Node nextNode) {
+    public void setNextNode(Node<T> nextNode) {
         this.nextNode = nextNode;
     }
 

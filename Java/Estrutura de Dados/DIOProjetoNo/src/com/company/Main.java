@@ -3,15 +3,15 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	    Node node1 = new Node("Conteudo no1");
-        Node node2 = new Node("Conteudo no2");
+	    Node<String> node1 = new Node<>("Conteudo no1");
+        Node<String> node2 = new Node<>("Conteudo no2");
 
         node1.setNextNode(node2);
 
-        Node node3 = new Node("Conteudo no3");
+        Node<String> node3 = new Node<>("Conteudo no3");
         node2.setNextNode(node3);
 
-        Node node4 = new Node("Conteudo no4");
+        Node<String> node4 = new Node<>("Conteudo no4");
         node3.setNextNode(node4);
 
         System.out.println(node1);
