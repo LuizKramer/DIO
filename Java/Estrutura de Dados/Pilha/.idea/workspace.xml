@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8a6478-358d-4902-8a1f-733bc22a23fe" name="Changes" comment="Adiciona projeto Pilha" />
+    <list default="true" id="5c8a6478-358d-4902-8a1f-733bc22a23fe" name="Changes" comment="Atualiza projeto Pilha" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +35,6 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -73,7 +72,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642340954710</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Atualiza projeto Pilha">
+      <created>1642341246481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642341246481</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Atualiza projeto Pilha">
+      <created>1642341253440</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642341253440</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +103,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Adiciona projeto Pilha" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adiciona projeto Pilha" />
+    <MESSAGE value="Atualiza projeto Pilha" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualiza projeto Pilha" />
   </component>
 </project>
