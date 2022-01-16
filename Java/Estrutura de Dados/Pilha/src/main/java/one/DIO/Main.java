@@ -10,7 +10,9 @@ public class Main {
         pilha.push(new Node(4));
         pilha.push(new Node(5));
         System.out.println(pilha);
-        pilha.pop();
-        System.out.println(pilha);
+        while(!pilha.isEmpty()) {
+            pilha.pop();
+            System.out.println(pilha);
+        }
     }
 }

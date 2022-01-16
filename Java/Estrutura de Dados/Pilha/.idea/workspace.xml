@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8a6478-358d-4902-8a1f-733bc22a23fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/DIO/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/DIO/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/DIO/Pilha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projetoNo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projetoNo/.idea/workspace.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="5c8a6478-358d-4902-8a1f-733bc22a23fe" name="Changes" comment="Adiciona projeto Pilha" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +66,14 @@
       <option name="presentableId" value="Default" />
       <updated>1642337066769</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adiciona projeto Pilha">
+      <created>1642340954710</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642340954710</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,5 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Adiciona projeto Pilha" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adiciona projeto Pilha" />
   </component>
 </project>
