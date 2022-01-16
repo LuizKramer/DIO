@@ -1,7 +1,7 @@
 package one.DIO;
 
-public class Fila {
-    private Node refEntryNode;
+public class Fila<T> {
+    private Node<T> refEntryNode;
 
     public Fila() {
         this.refEntryNode = null;
@@ -11,12 +11,13 @@ public class Fila {
         return refEntryNode == null ? true : false;
     }
 
-    public void enqueue(Node newNode){
+    public void enqueue(T object){
+        Node newNode = new Node(object);
         newNode.setRefNode(refEntryNode);
         refEntryNode = newNode;
     }
 
-    public Node deQueue(){
+    public T deQueue(){
         if(!this.isEmpty()) {
             Node firstNode = refEntryNode;
             Node auxNode = refEntryNode;
@@ -30,13 +31,13 @@ public class Fila {
                     break;
                 }
             }
-            return firstNode;
+            return (T) firstNode.getObject();
         }
         return null;
     }
 
 
-    public Node first(){
+    public T first(){
         if(!this.isEmpty()) {
             Node auxNode = refEntryNode;
             while(true) {
@@ -47,7 +48,7 @@ public class Fila {
                     break;
                 }
             }
-            return auxNode;
+            return (T) auxNode.getObject();
         }
         return null;
     }

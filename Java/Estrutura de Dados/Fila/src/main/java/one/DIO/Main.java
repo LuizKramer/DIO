@@ -2,12 +2,12 @@ package one.DIO;
 
 public class Main {
     public static void main(String[] args) {
-        Fila fila = new Fila();
+        Fila<Integer> fila = new Fila<>();
 
-        fila.enqueue(new Node("first"));
-        fila.enqueue(new Node("second"));
-        fila.enqueue(new Node("third"));
-        fila.enqueue(new Node("fourth"));
+        fila.enqueue(1);
+        fila.enqueue(2);
+        fila.enqueue(3);
+        fila.enqueue(4);
         System.out.println(fila);
         System.out.println(fila.first());
         fila.deQueue();
