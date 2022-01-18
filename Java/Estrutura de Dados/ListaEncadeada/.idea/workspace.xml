@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8da8f01-f01b-4b50-8450-8d8abf06a99e" name="Changes" comment="Refaz projeto">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/DIO/ListaEncadeada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d8da8f01-f01b-4b50-8450-8d8abf06a99e" name="Changes" comment="Adiciona Classe ListaEncadeada" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642536678907</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adiciona Classe ListaEncadeada">
+      <created>1642537926379</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1642537926379</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +84,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Refaz projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refaz projeto" />
+    <MESSAGE value="Adiciona Classe ListaEncadeada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adiciona Classe ListaEncadeada" />
   </component>
 </project>
