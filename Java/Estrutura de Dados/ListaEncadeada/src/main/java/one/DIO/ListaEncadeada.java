@@ -26,6 +26,18 @@ public class ListaEncadeada<T> {
         auxNode.setNextNode(newNode);
     }
 
+    public T remove(int index){
+        Node<T> pivotNode = this.getNode(index);
+        if(index == 0){
+            refEntryNode = pivotNode.getNextNode();
+            return pivotNode.getConteudo();
+        }
+        Node<T> prevNode = getNode(index - 1);
+        prevNode.setNextNode(pivotNode.getNextNode());
+        return pivotNode.getConteudo();
+
+    }
+
     public T get(int index){
         return getNode(index).getConteudo();
     }
@@ -35,7 +47,7 @@ public class ListaEncadeada<T> {
         Node<T> auxNode = refEntryNode;
         Node<T> returnNode = null;
 
-        for(int i = 0; i < index; i ++){
+        for(int i = 0; i <= index; i ++){
             returnNode = auxNode;
             auxNode = auxNode.getNextNode();
         }
@@ -68,4 +80,15 @@ public class ListaEncadeada<T> {
         return listSize;
     }
 
+    @Override
+    public String toString() {
+        String str = "";
+        Node<T> auxNode = refEntryNode;
+        for(int i=0; i < this.size(); i++){
+            str += "Node{conteudo= " + auxNode.getConteudo() + "} -> ";
+            auxNode = auxNode.getNextNode();
+        }
+        str += "null";
+        return  str;
+    }
 }
