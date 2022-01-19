@@ -3,6 +3,7 @@ package one.DIO;
 public class Main {
     public static void main(String[] args) {
         ListaCircular<Integer> listaCircular = new ListaCircular<>();
+        System.out.println(listaCircular);
         listaCircular.add(1);
         listaCircular.add(2);
         listaCircular.add(3);
@@ -15,5 +16,6 @@ public class Main {
 
         System.out.println(listaCircular);
 
+        System.out.println(listaCircular.get(6));
     }
 }
