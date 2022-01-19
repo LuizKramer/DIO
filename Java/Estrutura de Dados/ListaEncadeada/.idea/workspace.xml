@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8da8f01-f01b-4b50-8450-8d8abf06a99e" name="Changes" comment="Adiciona Classe ListaEncadeada">
-      <change afterPath="$PROJECT_DIR$/src/main/java/one/DIO/Main.java" afterDir="false" />
+    <list default="true" id="d8da8f01-f01b-4b50-8450-8d8abf06a99e" name="Changes" comment="Finaliza Classe ListaEncadeada">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/one/DIO/ListaEncadeada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/one/DIO/ListaEncadeada.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642541570976</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finaliza Classe ListaEncadeada">
+      <created>1642542846475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642542846475</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Finaliza Classe ListaEncadeada">
+      <created>1642542855243</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642542855243</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,7 +131,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Refaz projeto" />
     <MESSAGE value="Adiciona Classe ListaEncadeada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adiciona Classe ListaEncadeada" />
+    <MESSAGE value="Finaliza Classe ListaEncadeada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finaliza Classe ListaEncadeada" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
